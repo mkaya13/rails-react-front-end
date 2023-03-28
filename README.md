@@ -73,27 +73,19 @@ In order to run this project you need:
 
 Clone this repository by using the command line :
 
-- `git clone https://github.com/mkaya13/rails-react-one-app.git`
+- `git clone https://github.com/mkaya13/rails-react-front-end`
 
 ### Install
 
 Install this project with:
 
-`bundle install`
+`npm install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-`rails s` or `./bin/dev`
-
-NB: You need to create an `env` file for your database credentials
-your env file should contain the following
-
-```
-DATABASE_USERNAME=
-DATABASE_PASSWORD=
-```
+`npm run start`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
