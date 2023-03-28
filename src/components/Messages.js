@@ -1,5 +1,6 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React from 'react';
+import { useSelector } from 'react-redux';
+
 const Messages = () => {
   const randomMessage = useSelector((state) => state.message);
 

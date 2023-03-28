@@ -1,8 +1,8 @@
-import React from "react";
-import Messages from "./Messages";
-import { useDispatch } from "react-redux";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { getMessage } from "../redux/message/messageSlice";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Messages from './Messages';
+import { getMessage } from '../redux/message/messageSlice';
 
 const App = () => {
   const dispatch = useDispatch();
